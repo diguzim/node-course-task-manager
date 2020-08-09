@@ -29,7 +29,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"Rodrigo\",\n    \"email\": \"rodrigo4@example.com\",\n    \"password\": \"rodrigo123\"\n}",
+					"raw": "{\n    \"name\": \"Rodrigo\",\n    \"email\": \"rodrigo@example.com\",\n    \"password\": \"rodrigo123\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -244,7 +244,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \n}",
+					"raw": "{\n    \"description\": \"Dar uma voltinha\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -286,13 +286,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/tasks/5f289d0ca790d521ef6578c3",
+					"raw": "{{url}}/tasks/5f2f364512c67189803ef5a9",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"tasks",
-						"5f289d0ca790d521ef6578c3"
+						"5f2f364512c67189803ef5a9"
 					]
 				}
 			},
@@ -305,7 +305,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"description\": \"Imagination Landy\",\n    \"completed\": false\n}",
+					"raw": "{\n    \"description\": \"Ver SP\",\n    \"completed\": false\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -313,13 +313,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/tasks/5f2b59775ec7d5616df7e3c4",
+					"raw": "{{url}}/tasks/5f2f364512c67189803ef5a9",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"tasks",
-						"5f2b59775ec7d5616df7e3c4"
+						"5f2f364512c67189803ef5a9"
 					]
 				}
 			},
