@@ -244,7 +244,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"description\": \"Dar uma voltinha\"\n}",
+					"raw": "{\n    \"description\": \"quarta\",\n    \"completed\": false\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -269,12 +269,28 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/tasks",
+					"raw": "{{url}}/tasks?sortBy=createdAt:desc",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"tasks"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "skip",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "sortBy",
+							"value": "createdAt:desc"
+						}
 					]
 				}
 			},
@@ -286,13 +302,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/tasks/5f2f364512c67189803ef5a9",
+					"raw": "{{url}}/tasks/5f2fed712755f1222a322774",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"tasks",
-						"5f2f364512c67189803ef5a9"
+						"5f2fed712755f1222a322774"
 					]
 				}
 			},
@@ -331,13 +347,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/tasks/5f2b59549f358760cd2a6b38",
+					"raw": "{{url}}/tasks/5f2f364512c67189803ef5a9",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"tasks",
-						"5f2b59549f358760cd2a6b38"
+						"5f2f364512c67189803ef5a9"
 					]
 				}
 			},
