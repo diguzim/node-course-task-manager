@@ -29,7 +29,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"Rodrigo\",\n    \"email\": \"rodrigo@example.com\",\n    \"password\": \"rodrigo123\"\n}",
+					"raw": "{\n    \"name\": \"Rodrigo\",\n    \"email\": \"rodrigomarcondes2000@gmail.com\",\n    \"password\": \"rodrigo123\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
