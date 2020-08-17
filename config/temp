@@ -1,0 +1,2 @@
+taskapp123
+mongodb+srv://taskapp:taskapp123@cluster0.ibxsv.gcp.mongodb.net/task-manager-api?retryWrites=true&w=majority
